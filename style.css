@@ -69,15 +69,29 @@
     position: fixed; 
     right: 0;
     top: 0;
-
     background-color: #CAB492; 
     overflow-x: hidden; 
     transition: 0.5s; 
+    display: flex;
+}
+.overlay-title{
+    font-family: 'Cormorant', serif;
+    color: #55410A;
+    width: 60%;
+    background: #FCFFD8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 4px 14px rgba(0, 0, 0, 0.36);
+}
+.overlay-title h3{
+    font-size: 60px;
+    font-weight: 400;
 }
 .overlay-content {
     position: relative;
     top: 30%; 
-    width: 100%;
+    width: 40%;
     text-align: center; 
 
 }
@@ -99,8 +113,11 @@
 .overlay .closebtn {
     position: absolute;
     top: 20px;
-    right: 45px;
+    left: 45px;
     font-size: 60px;
+}
+.overlay .closebtn:hover {
+    color: #CAB492;
 }
 ::-webkit-scrollbar { 
     display: none; 
@@ -773,6 +790,13 @@ position: absolute;
     .imgprj2{
         display: flex;
     }
+
+    .overlay-title{
+        display: none;
+    }
+    .overlay-content {
+        width: 100%;
+    }
 }
 
 @media(max-width : 700px){
@@ -879,8 +903,9 @@ position: absolute;
         font-size: 60px;
     }
     .overlay a {
-        font-size: 30px;
+        font-size: 35px;
         color: #55410A;
+        font-weight: 500;
     }
 
 .workit{
