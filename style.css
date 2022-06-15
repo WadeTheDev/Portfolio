@@ -73,7 +73,6 @@
     overflow-x: hidden; 
     transition: 0.5s; 
     display: flex;
-    flex-direction: row-reverse;
 }
 .overlay-title{
     font-family: 'Cormorant', serif;
