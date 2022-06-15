@@ -309,8 +309,16 @@ position: absolute;
     font-family: 'Cormorant', serif;
     font-size: 100px;
     font-weight: 400;
+    overflow: hidden;
+    /* height: max-content; */
+    /* padding: 4% 0%; */
+    position: relative;
+    display: flex;
+
+}
+.worktxt h1 span{ 
     opacity: 0;
-    transform: translateY(-40px);
+    transform: translateY(160px);
     animation: move 1s 0s  forwards;
 }
 .worktxt p{
