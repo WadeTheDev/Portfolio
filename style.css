@@ -769,7 +769,7 @@ position: absolute;
     text-align: center;
     width: 100%;
     position: absolute;
-    top: 0%;
+    bottom: 0%;
     left: 0%;
     opacity: 0;
     transform: translateY(200px);
@@ -790,17 +790,18 @@ position: absolute;
 }
 .about-aside-left img{
     position: absolute;
-    width: 300px;
+    width: 330px;
 }
 .about-aside-right{
     display: flex;
     flex-direction: column;
-    padding: 4%;
+    padding: 2%;
     gap: 5%;
     width: 55%;
     height: 100%;
 }
 .about-aside-right p{
+    font-size: 15PX;
     color: #55410A;
     width: 80%;
     font-family: 'Sarala', sans-serif;
