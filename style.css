@@ -406,7 +406,7 @@ position: absolute;
     text-align: end;
     padding-right: 20%;
     opacity: 0;
-    transform: translateY(-30px);
+    transform: translateY(-50px);
     animation: move 1.2s 0s  forwards;
 }
 .bioabout{
@@ -601,13 +601,13 @@ position: absolute;
   }
   
 .services-container{
-        border: red solid 2px;
+        
         width: 100%;
         height: 100vh;
 }
 
 .services-container h1{
-    border: red solid 2px;
+    
     width: 100%;
     height: 15vh;
     display: flex;
@@ -618,14 +618,14 @@ position: absolute;
     font-size: 50px;
 }
 .gridcontainer{
-    border: red solid 2px;
+    
     height: 85vh;
     width: 100%;
     display: flex;
     justify-content: center;
 }
 .grid{
-    border: red solid 2px;
+    
     height: 100%;
     width: 90%;
 }
@@ -742,6 +742,93 @@ position: absolute;
     animation: move 1s 0.6s  forwards;
 }
 
+.aboutcontainer-1{
+    width: 100%;
+    height: 100vh;
+    background: url('img/bg-jumpman.png') center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.aboutcontainer-1 h1{
+    position: relative;
+    text-align: center;
+    font-family: 'Cormorant', serif;
+    font-weight: 400;
+    font-size: 90px;
+    letter-spacing: 1.155em;
+    color: #55410A;
+    margin-top: 2%;
+    /* width: 100%; */
+    height: 20%;
+    padding: 4%;
+    overflow: hidden;
+}
+.aboutcontainer-1 h1 span{
+    
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    opacity: 0;
+    transform: translateY(200px);
+    animation: move 1s 0.2s  forwards;
+}
+.about2-articles{
+    width: 100%;
+    height: 75%;
+    display: flex;
+}
+.about-aside-left{
+    position: relative;
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.about-aside-left img{
+    position: absolute;
+    width: 350px;
+}
+.about-aside-right{
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
+    gap: 5%;
+    width: 55%;
+    height: 100%;
+}
+.about-aside-right p{
+    color: #55410A;
+    width: 80%;
+    font-family: 'Sarala', sans-serif;
+}
+
+.about-aside-right h2{
+    font-size: 90px;
+    font-family: 'Cormorant', serif;
+    font-weight: 400;
+}
+.about-aside-right a{
+   background: #CAB492;
+   border: 2px #55410A solid;
+   cursor: pointer;
+   width: 230px;
+   text-align: center;
+   padding: 10px 30px;
+}
+.about-aside-right button{
+    font-family: 'Sarala', sans-serif;
+    color: #55410A;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
 @keyframes move {
     
     100%{
@@ -760,6 +847,10 @@ position: absolute;
 }
 
 @media(max-width : 1000px){
+    .aboutcontainer-1 h1{
+        font-size: 60px;
+        height: 15%;
+    }
     .firstpolygon h1{
         font-size: 130px;
     }
@@ -781,7 +872,35 @@ position: absolute;
         font-size: 70px;
     }
 }
+
+@media(max-width: 900px){
+    .about-aside-right{
+        width: 50%;
+    }
+    .about-aside-left{
+        width: 50%;
+    }
+}
 @media(max-width : 850px){
+    .aboutcontainer-1 h1{
+        font-size: 40px;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .aboutcontainer-1 h1 span{
+        position: relative;
+    }
+
+    .about-aside-left{
+        display: none;
+    }
+
+    .about-aside-right{
+        width: 100%;
+        margin-left: 50PX;
+    }
+
     .firstpolygon h1{
         font-size: 110px;
     }
@@ -828,6 +947,7 @@ position: absolute;
 
 @media(max-width : 700px){
 
+  
     .workit{
         width: 80%;
       
@@ -915,7 +1035,38 @@ position: absolute;
     box-shadow: none;
 }
 }
+@media(max-height : 600px){
+    .about-aside-left {
+       display: none;
+    }
+    .aboutcontainer-1 h1{
+        height: 15%;
+        font-size: 60px;
+    }
+    .about-aside-right{
+       width: 100%;
+       margin-left: 50px;
+    }
+    .about-aside-right h2{
+       font-size: 50px;
+    }
+    .about-aside-right p{
+       font-size: 13px;
+       width: 95%;
+    }
+    
+}
+@media(max-width : 500px){
+    .about-aside-right p{
+       font-size: 14PX;
+       width: 95%;
+    }
+}
 @media(max-height : 500px){
+
+    .aboutcontainer-1 h1 span{
+        font-size: 50px;
+    }
 
     .aboutxt h1{
         top: 7%;
