@@ -792,7 +792,7 @@ position: absolute;
     position: absolute;
     width: 330px;
     opacity: 0;
-    animation: moving 1.5s 0.4s  forwards;
+    animation: moving 1.5s 1s  forwards;
 }
 .about-aside-right{
     display: flex;
@@ -803,7 +803,7 @@ position: absolute;
     height: 100%;
     justify-content: center;
     opacity: 0;
-    animation: moving 1.5s 0.9s  forwards;
+    animation: moving 1.5s 1.5s  forwards;
 }
 .about-aside-right p{
     font-size: 15PX;
