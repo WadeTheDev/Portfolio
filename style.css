@@ -790,7 +790,7 @@ position: absolute;
 }
 .about-aside-left img{
     position: absolute;
-    width: 330px;
+    width: 300px;
     opacity: 0;
     animation: moving 1.5s 1s  forwards;
 }
