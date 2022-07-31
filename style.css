@@ -765,7 +765,6 @@ position: absolute;
     overflow: hidden;
 }
 .aboutcontainer-1 h1 span{
-    
     text-align: center;
     width: 100%;
     position: absolute;
@@ -838,6 +837,11 @@ position: absolute;
 }
 .about-aside-right button:hover{
     color: #FCFFD8;
+}
+.separate-line{
+    height: 3px;
+    width: 30%;
+    background: #CAB492;
 }
 
 @keyframes move {
@@ -1056,6 +1060,7 @@ position: absolute;
         height: 15%;
         font-size: 60px;
     }
+
     .about-aside-right{
        width: 100%;
        margin-left: 50px;
