@@ -840,8 +840,10 @@ position: absolute;
 }
 .separate-line{
     height: 3px;
-    width: 30%;
+    width: 0%;
     background: #CAB492;
+    transition: 0.3s;
+    animation: lines 1.5s 2s  forwards;
 }
 
 @keyframes move {
@@ -857,6 +859,13 @@ position: absolute;
     
     100%{
         opacity: 1;
+    }
+
+}
+@keyframes lines{
+    
+    100%{
+        width: 30%;
     }
 
 }
