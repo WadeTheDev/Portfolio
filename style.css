@@ -1104,6 +1104,9 @@ position: absolute;
         color: #55410A;
         font-weight: 500;
     }
+    .about-aside-right p{
+        font-size: 12PX;
+    }
 
 .workit{
         width: 90%;
